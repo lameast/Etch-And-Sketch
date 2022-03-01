@@ -1,11 +1,28 @@
-.container{
-    display: grid;
-    width: 1000px;
-    border: solid 0.5px;
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    gap: 50px;
+}
+.title{
+    font-size: 32px;
+    padding-top: 50px;
+    font-weight: 700;
 }
 
+.container{
+    display: grid;
+    width: 600px;
+    background-color: white;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 .square{
     aspect-ratio: 1;
-    border-color: black;
-    border: solid 1px;
 }
