@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    width: 1000px;
+    border: solid 0.5px;
+}
+
+.square{
+    aspect-ratio: 1;
+    border-color: black;
+    border: solid 1px;
+}
